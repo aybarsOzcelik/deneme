@@ -1,17 +1,27 @@
-{
-  "table1": [
-    { "name": "John Doe", "age": 30, "email": "john.doe@example.com" },
-    { "name": "Jane Smith", "age": 25, "email": "jane.smith@example.com" },
-    { "name": "Bob Johnson", "age": 35, "email": "bob.johnson@example.com" }
-  ],
-  "table2": [
-    { "product": "Widget A", "price": 10.99, "stock": 50 },
-    { "product": "Widget B", "price": 15.99, "stock": 20 },
-    { "product": "Widget C", "price": 8.99, "stock": 35 }
-  ],
-  "table3": [
-    { "country": "USA", "population": 331002651, "capital": "Washington, D.C." },
-    { "country": "China", "population": 1444216107, "capital": "Beijing" },
-    { "country": "Brazil", "population": 213993437, "capital": "Brasília" }
-  ]
-}
+{"menu": {
+    "header": "SVG Viewer",
+    "items": [
+        {"id": "Open"},
+        {"id": "OpenNew", "label": "Open New"},
+        null,
+        {"id": "ZoomIn", "label": "Zoom In"},
+        {"id": "ZoomOut", "label": "Zoom Out"},
+        {"id": "OriginalView", "label": "Original View"},
+        null,
+        {"id": "Quality"},
+        {"id": "Pause"},
+        {"id": "Mute"},
+        null,
+        {"id": "Find", "label": "Find..."},
+        {"id": "FindAgain", "label": "Find Again"},
+        {"id": "Copy"},
+        {"id": "CopyAgain", "label": "Copy Again"},
+        {"id": "CopySVG", "label": "Copy SVG"},
+        {"id": "ViewSVG", "label": "View SVG"},
+        {"id": "ViewSource", "label": "View Source"},
+        {"id": "SaveAs", "label": "Save As"},
+        null,
+        {"id": "Help"},
+        {"id": "About", "label": "About Adobe CVG Viewer..."}
+    ]
+}}
